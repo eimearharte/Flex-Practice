@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <style>
+
+body {
+    background-color: aquamarine;
+}
+
+.content {
+display: flex;
+}
+
+aside {
+    
+    flex:1;
+    background-color: palevioletred;
+    display: flex;                  
+    flex-direction: column;
+    justify-content: center;        
+    align-items: center;
+}
+
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+main {
+    flex:1;
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: purple;
+    padding: 10px 0px;
+    text-align: center;
+    
+}
+
+footer {
+text-align: center;
+position: relative;
+padding: 20px;
+padding-right: 10px;
+font-weight:bold;
+background-color: orange;
+}
+
+aside > h2 {
+    padding-top: 0px;
+    margin-top: 0%;
+}
+
+
+
+
+
+
+    </style>
+
+
+</head>
+
+
+
+<body>
+
+
+    <header>
+        <h1>WEB DESIGN CLASSES</h1>
+    </header>
+
+    <div class="content">
+
+        <aside>
+            <h2>Menu</h2>
+            <nav>
+             <a href="#">Home</a>
+             <a href="#">About</a>
+             <a href="#">Contact</a>
+             </nav>
+        </aside>
+
+        <main>
+        <h2> Welcome!</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus sapien eget justo cursu
+            convallis. Praesent eros nisl, fermentum at ipsum vel, scelerisque lobortis ante. Maecenas nulla
+            metus, semper eget lectus efficitur, tempor tristique urna. Mauris pharetra iaculis mauris vel faucibus.
+            Suspendisse varius nisi tortor, sed lobortis quam tristique eu. Cras non vestibulum turpis. Aenean consectetur
+            sapien sit amet augue rhoncus feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+            cubilia curae; Morbi imperdiet rutrum tortor. 
+        </p>
+
+        </main>
+
+
+    </div>
+
+    <footer>
+    LIVE. LAUGH. LOVE
+    </footer>
+
+</body>
+</html>
